@@ -54,7 +54,7 @@ Buy the book [here](https://www.amazon.co.uk/Programming-Haskell-Graham-Hutton/d
 
 ### Shameless Plugs
 
-If you like my work here, please consider checking out my 100 Days of Code project, where I am currently working on developing my Web Development skills. You can find that [here](https://github.com/CellOrwell/cellorwell.github.io) and can find the resulting website project [here](cellorwell.github.io).
+If you like my work here, please consider checking out my 100 Days of Code project, where I am currently working on developing my Web Development skills. You can find that [here](https://github.com/CellOrwell/cellorwell.github.io) and can find the resulting website project [here](https://cellorwell.github.io).
 
 >**Note:** The Website is a WIP, there will be bugs. If you find anything major, please contact me on LinkedIn or Twitter (handles in my [GitHub profile](https://github.com/CellOrwell)).
 
