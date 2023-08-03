@@ -22,13 +22,13 @@ I will aim to explain my working for each problem as best as I can, but if you h
 
 ### Exercise Links
 
-- [Chapter 1](/chap1.hs)
-- [Chapter 2](/chap2.hs)
-- [Chapter 3](/chap3.hs)
-- [Chapter 4](/chap4.hs)
-- [Chapter 5](/chap5.hs)
+- [Chapter 1](/docs/chap1.hs)
+- [Chapter 2](/docs/chap2.hs)
+- [Chapter 3](/docs/chap3.hs)
+- [Chapter 4](/docs/chap4.hs)
+- [Chapter 5](/docs/chap5.hs)
+- [Chapter 6](/docs/chap6.hs)
 <!---
-- [Chapter 6]
 - [Chapter 7]
 - [Chapter 8]
 - [Chapter 9]
