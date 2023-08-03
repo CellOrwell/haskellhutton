@@ -1,4 +1,3 @@
-import System.Win32 (COORD(x))
 -- Exercises for Chapter 6
 
 -- Exercise 1 - Modify factorial function to reject negative numbers
