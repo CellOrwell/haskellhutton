@@ -1,4 +1,4 @@
---
+-- Exercises for Chapter 1
 
 -- Exercise 1
 

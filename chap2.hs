@@ -1,4 +1,6 @@
---Example 1
+-- Exercises for Chapter 2
+
+--Example 1 - Unable to visualise here, it's a task of working through the examples in the chapters
 
 -- Example 2
 

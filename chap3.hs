@@ -1,4 +1,4 @@
--- Chapter 3 Exercises
+-- Exercises for Chapter 3
 
 -- Exercise 1
 

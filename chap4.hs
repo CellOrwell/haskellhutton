@@ -47,8 +47,8 @@ True `or3` _ = True
 False `or3` b = b
 
 or4 :: Bool -> Bool -> Bool
-b `or4` c | b == True = True
-          | c == True = True
+b `or4` c | b         = True
+          | c         = True
           | otherwise = False
 
 -- Exercise 5
@@ -80,4 +80,4 @@ luhnDouble :: Int -> Int
 luhnDouble x = if x*2 > 9 then x*2 - 9 else x*2
 
 luhn :: Int -> Int -> Int -> Int -> Bool
-luhn x y z h = (((luhnDouble x) + y + (luhnDouble z) + h) `mod` 10) == 0
+luhn x y z h = ((luhnDouble x + y + luhnDouble z + h) `mod` 10) == 0
