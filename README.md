@@ -28,8 +28,8 @@ I will aim to explain my working for each problem as best as I can, but if you h
 - [Chapter 4](/docs/chap4.hs)
 - [Chapter 5](/docs/chap5.hs)
 - [Chapter 6](/docs/chap6.hs)
+- [Chapter 7](/docs/chap7.hs)
 <!---
-- [Chapter 7]
 - [Chapter 8]
 - [Chapter 9]
 - [Chapter 10]
