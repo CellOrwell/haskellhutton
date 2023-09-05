@@ -1,6 +1,6 @@
 # Programming in Haskell 2nd Edition Exercise Solutions
 
-### Markdown Contents
+## Markdown Contents
 
 1. [Introduction](#introduction)
 2. [Exercise Links](#exercise-links)
@@ -9,7 +9,8 @@
 
 ---
 
-### Introduction
+## Introduction
+
 Programming Answers to the Programming in Haskell 2nd Edition book by Graham Hutton
 
 The aim of this repo is to give aspiring Haskell developers some work to check theirs against when working through this book. This should **NOT** be used to cheat in any way.
@@ -20,7 +21,7 @@ I will aim to explain my working for each problem as best as I can, but if you h
 
 ---
 
-### Exercise Links
+## Exercise Links
 
 - [Chapter 1](/docs/chap1.hs)
 - [Chapter 2](/docs/chap2.hs)
@@ -29,8 +30,8 @@ I will aim to explain my working for each problem as best as I can, but if you h
 - [Chapter 5](/docs/chap5.hs)
 - [Chapter 6](/docs/chap6.hs)
 - [Chapter 7](/docs/chap7.hs)
+- [Chapter 8](/docs/chap8.hs)
 <!---
-- [Chapter 8]
 - [Chapter 9]
 - [Chapter 10]
 - [Chapter 11]
@@ -44,7 +45,7 @@ I will aim to explain my working for each problem as best as I can, but if you h
 
 ---
 
-### Credits
+## Credits
 
 Buy the book [here](https://www.amazon.co.uk/Programming-Haskell-Graham-Hutton/dp/1316626229/ref=tmm_pap_swatch_0?_encoding=UTF8&sr) and find out more about Graham Hutton [here](https://www.cs.nott.ac.uk/~pszgmh/).
 
@@ -52,7 +53,7 @@ Buy the book [here](https://www.amazon.co.uk/Programming-Haskell-Graham-Hutton/d
 
 ---
 
-### Shameless Plugs
+## Shameless Plugs
 
 If you like my work here, please consider checking out my 100 Days of Code project, where I am currently working on developing my Web Development skills. You can find that [here](https://github.com/CellOrwell/cellorwell.github.io) and can find the resulting website project [here](https://cellorwell.github.io).
 

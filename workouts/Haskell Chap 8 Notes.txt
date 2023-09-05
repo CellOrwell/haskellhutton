@@ -1,0 +1,29 @@
+rmdups [A,B,A]
+A : filter (!= A) (rmdups [B,A])
+A : filter (!= A) (B : filter (!= B) (rmdups [A]))
+A : filter (!= A) (B : filter (!= B) (A : filter (!= A) (rmdups []))
+A : filter (!= A) (B : filter (!= B) ([A]))
+A : filter (!= A) ([B,A])
+A : [B]
+[A,B]
+
+map (zip [A, B]) (bools (length [A, B])
+map (zip [A, B]) ([[False, False], [False, True], [True, False], [True, True]])
+
+eval (Add (Add (Val 1) (Val 2)) (Val 3)) []
+
+eval (Add (Val 1) (Val 2)) [EVAL (Val 3)]
+eval (Val 1) [EVAL (Val 3), EVAL (Val 2)]
+exec [EVAL (Val 3), EVAL (Val 2)] 1
+eval (Val 3) [ADD 1 : EVAL (Val 2)]
+exec [ADD 1, EVAL (Val 2)] 3
+exec [EVAL (Val 2)] (3 + 1)
+eval (Val 2) [Add 4]
+exec [ADD 4] 2
+exec [] 6
+6
+
+mult Succ(Succ(Zero)) Succ(Succ(Succ(Zero)))
+
+2*3 = 2+2+2 or 3+3
+

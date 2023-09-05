@@ -1,9 +1,5 @@
 -- Exercises for Chapter 7
 
--- Imports
-{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
-{-# HLINT ignore "Use any" #-}
-{-# HLINT ignore "Use all" #-}
 import Data.Char
 
 -- Exercise 1 - Showing [f x | x <- xs, p x] can be rewritten with map and filter
