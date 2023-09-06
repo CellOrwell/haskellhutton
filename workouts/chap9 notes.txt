@@ -1,0 +1,26 @@
+interleave 1 [2,3,4]
+
+= (1:2:[3,4]) : map (2:) (interleave 1 [3,4])
+= (1:2:[3,4]) : map (2:) ((1:3:[4]) : map (3:) (interleave 1 [4]))
+= (1:2:[3,4]) : map (2:) ((1:3:[4]) : map (3:) ((1:4:[]) : map (4:) (interleave 1 [])))
+= (1:2:[3,4]) : map (2:) ((1:3:[4]) : map (3:) ((1:4:[]) : map (4:) [[1]]))
+= (1:2:[3,4]) : map (2:) ((1:3:[4]) : map (3:) ((1:4:[]) : [[4,1]]))
+= (1:2:[3,4]) : map (2:) ((1:3:[4]) : map (3:) (([1,4] : [[4,1]]))
+= (1:2:[3,4]) : map (2:) ((1:3:[4]) : map (3:) [[1,4],[4,1]]
+= (1:2:[3,4]) : map (2:) ([1,3,4] : [[3,1,4],[3,4,1]])
+= (1:2:[3,4]) : map (2:) [[1,3,4],[3,1,4],[3,4,1]]
+= [1,2,3,4] : [[2,1,3,4],[2,3,1,4],[2,3,4,1]]
+= ...
+
+
+perms [1,2,3]
+
+= concat (map (interleave 1) (perms [2,3]))
+= concat (map (interleave 1) (concat (map (interleave 2) (perms [3]))))
+= concat (map (interleave 1) (concat (map (interleave 2) (concat (map (interleave 3) (perms []))))))
+= concat (map (interleave 1) (concat (map (interleave 2) (concat (map (interleave 3) [[]])))))
+= concat (map (interleave 1) (concat (map (interleave 2) [[3]]))))
+= concat (map (interleave 1) [[2,3],[3,2]])
+= concat (map )
+
+exprs [1,2,3]
